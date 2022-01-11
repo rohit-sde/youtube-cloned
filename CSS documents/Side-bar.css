@@ -1,0 +1,28 @@
+.side-bar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+}
+.side-bar-butttons {
+    background-color: white;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.side-bar-butttons:hover {
+    background-color: rgb(226, 223, 223);
+}
+.side-bar-icons {
+    height: 24px;
+    padding-bottom: 6px;
+}
+.side-bar-butttons-name {
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+}
